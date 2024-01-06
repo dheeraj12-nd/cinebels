@@ -1,0 +1,28 @@
+.res-content p {
+    line-height: 1.2;
+}
+.res-video-sec.three-colume .content {
+    width: 30%;
+    height: auto;
+    color: #fff;
+    font-size: 24px;
+    line-height: 10px;
+    text-align: center;
+    margin: 10px;
+    border: 1px solid #FF6600;
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .res-video-sec.three-colume .content {
+    width: 100%;
+    height: auto;
+    color: #fff;
+    font-size: 24px;
+    line-height: 10px;
+    text-align: center;
+    margin: 5px;
+    border: 1px solid #FF6600;
+    display: none;
+}
+}

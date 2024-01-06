@@ -1,0 +1,314 @@
+#login_demo input[type="email"], #login_demo input[type="password"],#dealer_login_demo input[type="email"], #dealer_login_demo input[type="password"]{
+    width: 100%;
+    padding: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 1px solid #FF6600;
+    border-radius: 5px;
+    background: transparent;
+    color: #fff !important;
+}
+#login_demo .modal-body,#dealer_login_demo .modal-body {
+    background: #1F1F1F;
+    padding: 30px 65px;
+}
+#login_demo label, #dealer_login_demo label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+#login_demo .modal-body .close, #dealer_login_demo .modal-body .close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: transparent !important;
+    -moz-user-select: none !important;
+    background-image: none !important;
+    cursor: pointer !important;
+    display: inline-block !important;
+    text-align: center !important;
+    vertical-align: middle !important;
+    white-space: nowrap !important;
+    border-color: #FF6600 !important;
+    border-style: solid !important;
+    border-width: 1px !important;
+    border-radius: 0 !important;
+    padding: 0px 10px 0px !important;
+    width: fit-content !important;
+    font-size: 25px;
+    color: #fff;
+}
+#login_demo .modal-body .close:before, #dealer_login_demo .modal-body .close:before{
+    border: 1px solid #00AEEF;
+    content: "";
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+    left: 2px;
+    top: 3px;
+}
+
+#login_demo .cinebel-head h3, #dealer_login_demo .cinebel-head h3{
+    font-size: 20px;
+    text-align: center;
+}
+#login_demo .cinebel-head p, #dealer_login_demo .cinebel-head p{
+    color: #fff !important;
+    text-align: center;
+}
+#login_demo p, #login_demo a, #dealer_login_demo p, #dealer_login_demo a{
+    color: #fff;
+}
+
+#login_demo .login-btn, #dealer_login_demo .login-btn{
+    background: transparent;
+    position: relative !important;
+    -moz-user-select: none !important;
+    background-image: none !important;
+    cursor: pointer !important;
+    display: inline-block !important;
+    text-align: center !important;
+    vertical-align: middle !important;
+    white-space: nowrap !important;
+    border-color: #FF6600 !important;
+    border-style: solid !important;
+    border-width: 1px !important;
+    border-radius: 0 !important;
+    padding: 15px 28px 13px !important;
+    width: fit-content !important;
+    margin-top: 10px;
+    color:#fff;
+    margin-right: auto;
+    margin-left: auto;
+    display: block !important;
+}
+#login_demo .login-btn:before, #dealer_login_demo .login-btn:before{
+    border: 1px solid #00AEEF;
+    content: "";
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+    left: 2px;
+    top: 4px;
+}
+.f-password{text-align:right;}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: #fff !important;
+    opacity: 1;
+	font-size:14px;
+	font-weight:400;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #fff !important;
+    opacity: 1;
+	font-size:14px;
+	font-weight:400;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #fff !important;
+    opacity: 1;
+	font-size:14px;
+	font-weight:400;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #fff !important;
+    opacity: 1;
+	font-size:14px;
+	font-weight:400;
+}
+.reg-btn a {
+    color: #FF6600 !important;
+}
+.reg-btn a:hover {
+    color: #00AEEF !important;
+}
+#firstName-error, #lastName-error, #email-error, #phone-error, #location-error {
+    color: red;
+    font-weight: 300;
+    padding-left: 10px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.login-btn:hover {
+    background: #FF6600 none repeat scroll 0 0 !important;
+    color: #000000 !important;
+}
+
+@media (min-width: 768px){
+#login_demo .modal-dialog, #dealer_login_demo .modal-dialog {max-width:630px !important;}
+
+}
+
+
+/*Register form CSS*/
+#register_demo input[type="email"], #register_demo input[type="password"], #register_demo input[type="text"], #register_demo input[type="tel"]{
+    width: 100%;
+    padding: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 1px solid #FF6600;
+    border-radius: 5px;
+    background: transparent;
+    color: #fff !important;
+}
+#register_demo .modal-body {
+    background: #1F1F1F;
+    padding: 30px 65px;
+}
+#register_demo label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+#register_demo .modal-body .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: transparent !important;
+    -moz-user-select: none !important;
+    background-image: none !important;
+    cursor: pointer !important;
+    display: inline-block !important;
+    text-align: center !important;
+    vertical-align: middle !important;
+    white-space: nowrap !important;
+    border-color: #FF6600 !important;
+    border-style: solid !important;
+    border-width: 1px !important;
+    border-radius: 0 !important;
+    padding: 0px 10px 0px !important;
+    width: fit-content !important;
+    font-size: 25px;
+    color: #fff;
+}
+#register_demo .modal-body .close:before {
+    border: 1px solid #00AEEF;
+    content: "";
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+    left: 2px;
+    top: 3px;
+}
+
+#register_demo .cinebel-head h3 {
+    font-size: 20px;
+    text-align: center;
+}
+#register_demo .cinebel-head p {
+    color: #fff !important;
+    text-align: center;
+}
+#register_demo p, #register_demo a {
+    color: #fff;
+}
+
+#register_demo .login-btn {
+    background: transparent;
+    position: relative !important;
+    -moz-user-select: none !important;
+    background-image: none !important;
+    cursor: pointer !important;
+    display: inline-block !important;
+    text-align: center !important;
+    vertical-align: middle !important;
+    white-space: nowrap !important;
+    border-color: #FF6600 !important;
+    border-style: solid !important;
+    border-width: 1px !important;
+    border-radius: 0 !important;
+    padding: 15px 28px 13px !important;
+    width: fit-content !important;
+    margin-top: 10px;
+    color:#fff;
+    margin-right: auto;
+    margin-left: auto;
+    display: block !important;
+    margin-bottom:20px;
+}
+#register_demo .login-btn:before {
+    border: 1px solid #00AEEF;
+    content: "";
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+    left: 2px;
+    top: 4px;
+}
+.f-password{text-align:right;}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: #fff !important;
+    opacity: 1;
+	font-size:14px;
+	font-weight:400;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #fff !important;
+    opacity: 1;
+	font-size:14px;
+	font-weight:400;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #fff !important;
+    opacity: 1;
+	font-size:14px;
+	font-weight:400;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #fff !important;
+    opacity: 1;
+	font-size:14px;
+	font-weight:400;
+}
+.reg-btn a {
+    color: #FF6600 !important;
+}
+.reg-btn a:hover {
+    color: #00AEEF !important;
+}
+
+
+@media (min-width: 768px){
+#register_demo .modal-dialog {max-width:630px !important;}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

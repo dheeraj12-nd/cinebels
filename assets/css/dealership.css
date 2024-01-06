@@ -1,0 +1,287 @@
+.dealer-products {
+    padding: 10px;
+    border: 1px solid #fff;
+    margin-bottom: 20px;
+}
+.deal-info p {
+    padding-bottom: 25px;
+}
+.btn-download, select.form-control:not([size]):not([multiple]) {
+    height: calc(2.55rem + 2px);
+}
+.dropdown-sec-dealer #sel1 {
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    padding-left: 30px;
+    border-right: 0;
+}
+.dropdown-sec-dealer .form-control {
+    position: relative;
+    -webkit-appearance: auto !important;
+    appearance: auto !important;
+}
+.btn-download, .form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #fff;
+    background-color: transparent;
+    background-clip: padding-box;
+    border: 1px solid #fff;
+    border-radius: 0;
+    -webkit-transition: border-color 0.15s ease-in-out,-webkit-box-shadow 0.15s ease-in-out;
+    transition: border-color 0.15s ease-in-out,-webkit-box-shadow 0.15s ease-in-out;
+    transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+    transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out,-webkit-box-shadow 0.15s ease-in-out;
+}
+.dropdown-sec-dealer .form-control:focus {
+    color: #fff !important;
+    background-color: #000;
+    border: 1px solid #fff;
+    box-shadow: none !important;
+}
+.btn-download {
+    width: 100%;
+    border-left: 0;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+.btn-download:hover {
+    background: #f60;
+}
+.dropdown-sec-dealer #sel1:hover {
+    cursor: pointer;
+}
+.dropdown-sec-dealer .sel2:hover {
+    cursor: pointer;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: #fff !important;
+    opacity: 1;
+	font-size:16px;
+	font-weight:400;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #fff !important;
+    opacity: 1;
+	font-size:16px;
+	font-weight:400;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #fff !important;
+    opacity: 1;
+	font-size:16px;
+	font-weight:400;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #fff !important;
+    opacity: 1;
+	font-size:16px;
+	font-weight:400;
+}
+.btn-src {
+    width: 130px;
+    background: transparent;
+    color: #fff;
+    border-left: 0;
+    border: 1px solid #fff;
+    border-left: 0;
+    border-top-right-radius: 100px !important;
+    border-bottom-right-radius: 100px;
+}
+#search1 {
+    display: block;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #fff;
+    background-color: transparent;
+    background-clip: padding-box;
+    border: 1px solid #fff;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    padding-left:20px;
+    -webkit-transition: border-color 0.15s ease-in-out,-webkit-box-shadow 0.15s ease-in-out;
+    transition: border-color 0.15s ease-in-out,-webkit-box-shadow 0.15s ease-in-out;
+    transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+    transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out,-webkit-box-shadow 0.15s ease-in-out;
+}
+#search1:focus {
+    color: #fff !important;
+    background-color: #000;
+    border: 1px solid #fff;
+    box-shadow: none !important;
+}
+.material-sec{padding-top:50px;}
+.material-sec h3{font-size:20px;padding-bottom:20px;}
+.material-sec li{padding-bottom:10px;}
+.material-sec ul{margin-left:-15px;}
+.months-year {
+    border: 1px solid #f60;
+    width: 8%;
+    padding: 5px 1px 0px 10px;
+    height: 30px;
+    font-size: 14px;
+    color: #f60;
+    margin-bottom: 30px;
+
+}
+.training-cta {
+    background: transparent !important;
+    position: relative !important;
+    -moz-user-select: none !important;
+    background-image: none !important;
+    cursor: pointer !important;
+    display: inline-block !important;
+    text-align: center !important;
+    vertical-align: middle !important;
+    white-space: nowrap !important;
+    border-color: #FF6600 !important;
+    border-style: solid !important;
+    border-width: 1px !important;
+    border-radius: 0 !important;
+    padding: 10px 15px 10px !important;
+    width: fit-content !important;
+    margin-top: 10px;
+}
+.training-list a{color:#fff;}
+.training-cta{position:relative;}
+.training-cta:before {
+    border: 1px solid #00AEEF;
+    content: "";
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+    left: 2px;
+    top: 4px;
+}
+.training-list {
+    border: 1px solid #fff;
+    border-radius:5px;
+    padding: 20px 0px 20px 20px;
+    margin-bottom:30px;
+}
+.table-dealership {
+    padding-top: 50px;
+}
+
+.table-dealership th , .table-dealership td{
+    color: #fff !important;
+    padding-left: 20px !important;
+}
+.table-dealership .table {
+    --bs-table-bg: transparent !important;
+    color: #fff !important;
+}
+.dealship1{background:#131313 !important;}
+.dealership3{background:#000 !important;}
+.sub-navbar {
+    padding: 0;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+.dealership-slider .owl-nav {
+    display: none;
+}
+.dealership-slider .owl-dots {
+    position: relative;
+    top: 30px;
+}
+.deal-info-6 {
+    padding-right: 30px;
+}
+.dropdown-sec-dealer {
+    display: flex;
+    width: 75%;
+    margin: 0 auto;
+}
+.dealership3 {
+    padding-bottom: 70px !important;
+}
+.training-list {
+    display: flex;
+    width: 100%;
+}
+#search1 {width:400px;}
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.dealership-banner.solutions1 h1 {
+    width: 475px;
+}
+.dealship1 .col-md-4 {
+    width: 50%;
+}
+.btn-download{font-size:14px;}
+.months-year {width:14%;}
+#search1 {
+    width: 207px;
+}
+.btn-download{border:1px solid #fff !important;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+.months-year {width:11%;}
+#search1 {
+    width: 325px;
+}
+}
+
+@media only screen and (max-width: 767px){
+    .dealership-slider .owl-nav {
+    display: none;
+}
+.dealership-slider .owl-dots {
+    position: relative;
+    top: 23px;
+}
+.dropdown-sec-dealer #sel1, .dropdown-sec-dealer .sel2 {
+border-radius:5px;
+    padding-left: 30px;
+    border-right: 0;
+    margin-bottom: 20px;
+    border:1px solid #fff;
+}
+.btn-download{
+    border-radius:5px;
+    padding-left: 30px;
+    border:1px solid #fff;
+    text-align: left;
+}
+.dealership3#solution3 {
+    padding-bottom: 40px !important;
+}
+.months-year {
+    border: 1px solid #f60;
+    width: 33%;
+    padding: 5px 2px 0px 10px;
+    height: 40px;
+    font-size: 14px;
+    color: #f60;
+    margin-bottom: 30px;
+}
+.dealership6{padding-bottom:20px;}
+}
+
+
+@media only screen and (min-width: 1200px) and (max-width: 1360px) {
+.months-year {
+    border: 1px solid #f60;
+    width: 9%;
+}
+
+
+
+
+
+
+

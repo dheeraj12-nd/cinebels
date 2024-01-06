@@ -1,0 +1,127 @@
+.checkout-form .form-control {
+    border-radius: 0px !important;
+    margin: 15px 0px;
+    border-bottom: 1px solid #000000 !important;
+ 
+}
+
+button.btn.checkout-cta::after {
+   content: '';
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    border-left: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    z-index: 10;
+   right: 20px;
+    transform: rotate(-135deg);
+    top: 13px;
+    transition: all 500ms ease-in-out;
+}
+button.btn.checkout-cta {
+    position: relative;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    padding: 7px 29px 7px 11px;
+    background-color: #000;
+    border: 1px solid #000;
+    transition: all 500ms ease-in-out;
+    width: 18%;
+    margin-top: 20px;
+}
+.chkclms.chkbil {
+    padding-top: 50px;
+}
+.checkout-form {
+    padding: 40px;
+    background: #F2F2F2;
+}
+.adding-adress select {
+    text-transform: capitalize;
+    font-size: 1.1em;
+    height: 31px;
+    padding-right: 40px;
+    width: 100%;
+    box-sizing: border-box;
+    border-bottom: 2px dotted #000 !important;
+    border-style: dotted;
+    border:0;
+    margin-bottom:20px;
+    margin-top:20px;
+}
+.adding-adress select:focus-visible{border:0 !important;}
+.add-more{margin-bottom:20px;}
+.add-more a{position:relative;}
+.add-more a::before {
+    content: '+';
+    position: absolute;
+    left: 4px;
+    top: 2px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #000;
+    z-index: 10;
+    pointer-events: none;
+    text-align: center;
+    box-sizing: border-box;
+    transition: all 500ms ease-in-out;
+    font-size: 14px;
+}
+.add-more a {
+    display: inline-block;
+    vertical-align: top;
+    color: #000;
+    line-height: 1em;
+    font-size: 14px;
+    position: relative;
+    padding: 3px 10px 3px 28px;
+}
+
+.cpn-apply {
+    height: 46px;
+    border: 1px solid #000 !important;
+    padding: 10px 50px 10px 12px;
+    font-size: 0.95em;
+    width: 100%;
+}
+.go-btn {
+    background-color: #000 !important;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 0.75em;
+    font-weight: 700;
+    position: absolute;
+    z-index: 10;
+    right: 9px;
+    top: 7px;
+    padding: 7px 12px 6px 11px;
+}
+.coup-btn {
+    position: relative;
+    margin-top:30px;
+        left: -8px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+    button.btn.checkout-cta {
+    width: 30%;
+
+}
+.add1.total-price {
+    font-size: 18px;
+}
+}
+
+@media only screen and (max-width: 767px){
+   .checkout-form {
+    padding: 10px;
+    
+}
+button.btn.checkout-cta {
+    width: 49%;
+   
+}
+}

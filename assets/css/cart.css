@@ -1,0 +1,222 @@
+
+.cart-section .title{
+    margin-bottom: 5vh;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+    line-height: 1.3;
+}
+.cart-section .col.align-self-center.text-right.text-muted {
+    color: #000000 !important;
+}
+.card{
+    margin: auto;
+    /*max-width: 950px;*/
+    /*width: 90%;*/
+    border: transparent;
+}
+.prod-cart .row.text-muted {
+    font-size: 15px;
+}
+.prod-name {
+    font-size: 18px;
+    font-weight: 500;
+     line-height: 1.3;
+}
+.summary .row {
+    padding-bottom: 10px;
+}
+@media(max-width:767px){
+    .card{
+        margin: 3vh auto;
+    }
+   .title .col:nth-child(3) {
+    display: none;
+}
+.title .col:nth-child(5) {
+    display: none;
+}
+.summary {
+    padding: 40px 15px !important;
+
+}
+.whislist-cta {
+    margin-left: 52px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.sticked-header-offset {
+    padding-bottom: 0;
+}
+.prod-name {
+    font-size: 16px;
+}
+.cart-section .title {
+
+    font-size: 18px;
+   
+}
+.col.mobile-new {
+    flex: none;
+    margin-left: 51px;
+    margin-top: 3px;
+}
+}
+.cart{
+   background-color: #f1e8e840;
+    padding: 4vh 5vh;
+}
+@media(max-width:767px){
+    .cart{
+        padding: 20px;
+        /*border-bottom-left-radius: unset;*/
+        /*border-top-right-radius: 1rem;*/
+    }
+}
+.summary{
+   background-color: #FFFFFF;
+ padding: 40px 25px;
+    color: rgb(65, 65, 65);
+}
+@media(max-width:767px){
+    .summary{
+    border-top-right-radius: unset;
+    border-bottom-left-radius: 1rem;
+    }
+}
+.cart-section .summary .col-2{
+    padding: 0;
+}
+.cart-section .summary .col-10
+{
+    padding: 0;
+}.cart-section .row{
+    margin: 0;
+}
+.cart-section .title b{
+    font-size: 1.5rem;
+}
+.cart-section .main{
+    margin: 0;
+    padding: 2vh 0;
+    width: 100%;
+}
+.cart-section .col-2, .col{
+    padding: 0 1vh;
+}
+.cart-section a{
+    padding: 0 1vh;
+}
+.cart-section .close{
+    margin-left: auto;
+    font-size: 0.7rem;
+}
+.cart-section img{
+    width: 5.5rem;
+}
+.cart-section .back-to-shop{
+    margin-top: 4.5rem;
+}
+.cart-section h5{
+    margin-top: 4vh;
+}
+.cart-section hr{
+    margin-top: 1.25rem;
+}
+.cart-section form{
+    padding: 2vh 0;
+}
+.cart-section select{
+    border: 1px solid rgba(0, 0, 0, 0.137);
+    padding: 1.5vh 1vh;
+    margin-bottom: 4vh;
+    outline: none;
+    width: 100%;
+    background-color: rgb(247, 247, 247);
+}
+.cart-section input{
+    border: 1px solid rgba(0, 0, 0, 0.137);
+    padding: 1vh;
+    margin-bottom: 4vh;
+    outline: none;
+    width: 100%;
+    background-color: rgb(247, 247, 247);
+}
+.cart-section input:focus::-webkit-input-placeholder
+{
+      color:transparent;
+}
+.cart-section .btn{
+  background-color: #000;
+    border-color: #000;
+    color: white;
+    width: 100%;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 40px;
+    padding: 10px;
+    border-radius: 0;
+}
+.row.total-price {
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 26px;
+    padding-bottom: 0px;
+    font-size: 20px;
+}
+.cart-section .btn:focus{
+    box-shadow: none;
+    outline: none;
+    box-shadow: none;
+    color: white;
+    -webkit-box-shadow: none;
+    -webkit-user-select: none;
+    transition: none; 
+}
+.cart-section .btn:hover{
+    color: white;
+}
+.cart-section a{
+    color: black; 
+}
+.cart-section a:hover{
+    color: black;
+    text-decoration: none;
+}
+ #code{
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0.253) , rgba(255, 255, 255, 0.185)), url("https://img.icons8.com/small/16/000000/long-arrow-right.png");
+    background-repeat: no-repeat;
+    background-position-x: 95%;
+    background-position-y: center;
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+   .cart-product1  {
+           display: block;
+
+   }
+  .cart-product1 .col-md-8 {
+    width: 100%;
+}
+.wishlist-sec .col-md-11 {
+    width: 100%;
+}
+.cart-product1 .col-md-4 {
+    width: 100%;
+    margin-top: 40px;
+}
+}
+@media only screen and (min-width: 768px){
+span.hide-txt-desk {
+    display: none;
+}
+.back-btn {
+  
+    margin-top: -8px;
+}
+}
+
+
+
+

@@ -1,0 +1,129 @@
+.breadcrums {display: flex;}
+.breadcrums a{color: #fff;}
+.sortby-txt {
+    color: #fff;
+    text-align: right;
+    position: relative;
+    top: 8px;
+    font-size: 16px;
+    left:-20px;
+}
+.filter-sec .form-control{font-size:14px;}
+
+.filter-sec .form-control {
+    background: transparent;
+    color: #fff;
+    border-bottom: 1px solid #fff !important;
+    border: 0;
+    border-radius: 0;
+    padding-left: 0;
+    -webkit-appearance: auto !important;
+    -moz-appearance: auto !important;
+    appearance: auto !important;
+}
+.filter-sec .form-control:focus {
+    color: #fff !important;
+    background-color: #202020 !important;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: none !important;
+}
+.brands-category-produtcs {
+    padding-top: 50px;
+}
+.brands-category-produtcs h2 {
+    font-size: 30px !important;
+    text-align: left !important;
+}
+.brands-category-produtcs p {
+    color: #fff;
+}
+.brands-info p {
+    padding-top: 20px;
+}
+.brands-header p{padding-bottom:20px;}
+.filter-sec .product-txt {margin-bottom: 0px;}
+.breadcrums a:hover {
+    color: #f60;
+}
+.brands-info > a >img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.brands-inner{height:42vh !important;}
+	.brands-inner.diy-banner1 h1 {
+    width: 500px;
+}
+.filter-sec .col-md-8 {flex: 0 0 auto;width: 83.666667% !important;}
+.filter-sec .col-md-4 {flex: 0 0 auto;width: 16.333333% !important;}
+.brands-inner-cta .last-sec.hblack-cta.orblue-cta {margin-left: 0px;}
+.brands-info img {width: 95%;}
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1100px) {
+.brands-info img {width: 100%;}
+.brands-inner .diy-banner1 {height: 57vh !important;}
+}
+
+@media only screen and (max-width: 767px){
+.brands-inner{height: 50vh !important;}
+.brands-inner h1 {font-size: 35px;width: auto;line-height: 1.3;}
+.brands-inner2{padding-top:20px;padding-bottom:10px;}
+.brands-inner3{padding-top:20px;padding-bottom:10px;}
+.brands-inner4{display:flex;}
+.filter-sec .form-control {
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff !important;
+    border: 0;
+    border-radius: 0;
+    padding-left: 0;
+    -webkit-appearance: auto !important;
+    -moz-appearance: auto !important;
+    appearance: auto !important;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+.sortby-txt {
+    color: #fff;
+    text-align: left;
+    position: relative;
+    top: 5px;
+    font-size: 10px !important;
+    left: 0;
+}
+.brands-category-produtcs {
+    padding-top: 20px;
+}
+.brands-category-produtcs h2 {
+    font-size: 25px !important;
+    text-align: left !important;
+    padding-bottom: 10px !important;
+}
+.brands-info {
+    padding-bottom: 30px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

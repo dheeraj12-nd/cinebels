@@ -1,0 +1,560 @@
+#hero {
+    width: 100%;
+    height: 75vh;
+    background-image: url(../images/About-us-banner.png);
+    /* background: url(../img/hero-bg.jpg) top left; */
+    background-size: cover;
+    position: relative;
+}
+.about-banner h1 { 
+    font-size: 55px;
+    font-weight: 500;
+    color: #EBEBEB;
+    line-height: 1.2;
+    width: 415px;
+}
+.al-top {
+    margin-top: 20px;
+}
+.about-banner  span {
+    color: #FF6600;
+}
+h2.about-head {
+  font-size: 40px !important;
+    font-weight: 400 !important;  
+}
+.about-head span {
+   color: #FF6600;  
+}
+.about-banner p {
+font-size: 18px;
+    font-weight: 400;
+   color: #CDCDCD;
+    line-height: 1.5;
+    width: 415px;
+}
+
+.high-end-audio {
+    background: #000000;
+   color: #D9D9D9;
+    padding-bottom: 13rem;
+}
+.high-end-audio  span {
+    color: #FF6600;
+}
+
+section#vision {
+    background: #131313;
+    color: #ffffff;
+}
+.mob-img img {
+    z-index: 99;
+    margin-top: -208px;
+    position: absolute;
+}
+.img-box img {
+    padding: 30px 0px 30px 0px;
+}
+.img-box h3 {
+    font-size: 40px;
+    width: 258px;
+    padding-bottom:20px;
+    font-weight: 400;
+    color: #D9D9D9;
+}
+.img-box span {
+    color: #FF6600;
+}
+.img-box p {
+    color: #D9D9D9;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+section#our-leaders {
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #0F0A0A 100%, #00000000 0%);
+   color: #D9D9D9;
+    text-align: center;
+   padding: 3rem 14rem 0rem 14rem;
+}
+section#our-teams {
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #0F0A0A 100%, #00000000 0%);
+    color: #ffffff;
+    text-align: center;
+   
+}
+.hblack-cta:before {
+    border-color: #fff !important;
+}
+.last-sec.hblack-cta.orblue-cta {
+    margin-left: 150px;
+    margin-top: 10px;
+}
+.hblack-cta {
+    color: #fff !important;
+    border-color: #000 !important;
+    background-color: #000 !important;
+}
+img.arrow-img {
+    margin-top: 0px !important;
+}
+section#game-today {
+    background: #FF6600;
+}
+.our-team img {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.our-team {
+    background-image: url(../images/testnimial-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 370px;
+}
+.read-more.hban-btn {
+    margin-top: 30px;
+}
+
+/*.truncate .read-more > a {*/
+/*  position: relative;*/
+/*  display: inline-block;*/
+/*  text-decoration: none;*/
+/*  background: #41be6b;*/
+/*  color: #fff;*/
+/*  padding: 10px 40px 10px 20px;*/
+/*  transition: 0.3s;*/
+/*}*/
+/*.truncate.hasHidden .read-more > a:before {*/
+/*		position: absolute;*/
+/*    content: '';*/
+/*    background: url(https://web.pinklemonadedigital.com/cinebels/wp-content/uploads/2023/09/cta-bg.svg);*/
+/*    width: 158px;*/
+/*    height: 52px;*/
+/*    background-size: 85%;*/
+/*    background-repeat: no-repeat;*/
+/*    left: 0;*/
+/*    top: 0px;*/
+/*}*/
+/*.truncate .read-more > a:before {*/
+/*	position: absolute;*/
+/*    content: '';*/
+/*    background: url(https://web.pinklemonadedigital.com/cinebels/wp-content/uploads/2023/09/cta-bg.svg);*/
+/*    width: 158px;*/
+/*    height: 52px;*/
+/*    background-size: 85%;*/
+/*    background-repeat: no-repeat;*/
+/*    left: 0;*/
+/*    top: 0px;*/
+/*}*/
+/*.truncate .read-more > a {*/
+/*    background: transparent;*/
+/*    color: #F60 !important;*/
+/*    font-size: 15px;*/
+/*    font-style: normal;*/
+/*    font-weight: 400;*/
+/*    line-height: normal;*/
+/*	margin-top: 40px;*/
+/*}*/
+section#milestone-achieved {
+    background: #000000;
+    color: #ffffff;
+}
+
+/*.milestone-achieved h2 {*/
+/*    font-size: 40px;*/
+/*    font-weight: 400;*/
+/*}*/
+.milestone-slider {
+    margin-left: 5rem;
+    margin-top: 50px;
+}
+
+.milestone-num {position: relative;}
+.milestone-num p {font-weight: 700;color: #D9D9D9;font-size: 30px;line-height: 1.5;padding-top: 15px;}
+.milestone-txt p {font-size: 18px;color: #D9D9D9;font-weight: 400;line-height: 1.4;}
+.count-num-line p{font-size:20px;color:#D9D9D9;line-height:1.4;}
+.count-num-line {border-bottom: 1px solid #797979;}
+.hm-count .elementor-counter .elementor-counter-number-prefix {display: none;}
+.hm-count span.elementor-counter-number, .hm-count span.elementor-counter-number-suffix {font-size: 60px;color: #D9D9D9;font-weight: 400;}
+
+
+
+/*/ start count stats /*/
+
+section#counter-stats {
+	display: flex;
+	justify-content: center;
+	background:#131313;
+	background-image: url(../images/Vector-1.png) !important;
+    background-position: center center!important;
+    background-repeat: no-repeat!important;
+    background-size: contain!important;
+}
+
+.stats {
+  text-align: left;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.counting, .plus-icon {
+    font-size: 60px;
+    color: #D9D9D9;
+    font-weight: 400;
+}
+.counter-img {
+    border-bottom: 1px solid #797979;
+}
+.counter-img p {
+    font-size: 20px;
+    color: #D9D9D9;
+    line-height: 1.4;
+    font-weight: 600;
+}
+.counter-hed span{color:#FF6600;}
+.counter-hed h2{text-align:center;padding-bottom:40px;color:#fff; font-weight: 400; margin-left: 55px; padding-right: 55px; position: relative; }
+/*/ end count stats /*/
+#bio_demo .modal-body {
+    color: #fff;
+}
+#bio_demo .modal-header {
+    display: flex;
+    border-bottom: none;
+    justify-content: flex-start;
+    align-items: center;
+}
+#bio_demo .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: transparent !important;
+    -moz-user-select: none !important;
+    background-image: none !important;
+    cursor: pointer !important;
+    display: inline-block !important;
+    text-align: center !important;
+    vertical-align: middle !important;
+    white-space: nowrap !important;
+    border-color: #FF6600 !important;
+    border-style: solid !important;
+    border-width: 1px !important;
+    border-radius: 0 !important;
+    padding: 0px 10px 0px !important;
+    width: fit-content !important;
+    font-size: 25px;
+    color: #fff;
+}
+#bio_demo .close:before {
+    border: 1px solid #00AEEF;
+    content: "";
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+    left: 2px;
+    top: 3px;
+}
+#bio_demo .modal-content {
+    padding: 20px 40px;
+    background: #1F1F1F;
+    color:#fff;
+}
+#bio_demo .modal-header .partnersimage {
+    margin-right: 20px;
+}
+
+
+@media only screen and (min-width: 768px) {
+.milestone-slider .owl-dots { display: none;}
+.milestone-slider .owl-nav {display: block;opacity: 1 !important;position: absolute;right: 12.5%;top: -24%;}
+.milestone-num::before {content: '';position: absolute;top: 61%;width: 265px;height: 1px;background-image:url(../images/line1.svg) !important;background-repeat:no-repeat !important;background-size:cover !important;left: 23%;}
+.milestone-slider .owl-carousel .owl-item {padding-left: 10px;padding-right: 10px;}
+.head2 .vis {display: block;}
+.milestone-slider .owl-next {
+    background: transparent !important;
+    text-indent: 9999px;
+    background-image: url(../images/right-1i.svg) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+	width:54px !important;
+	height:35px !important;
+}
+.milestone-slider .owl-prev {
+    background: transparent !important;
+    text-indent: 9999px;
+    background-image: url(../images/left.svg) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+	width:54px !important;
+	height:35px !important;
+	left:-75px !important;
+}
+#bio_demo .modal-dialog {
+    max-width: 60% !important;
+}
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1365px) {
+.milstone-s{padding-left:90px;}
+.milestone-num::before {width: 208px;
+    left: 31%;}
+.milestone-num.new-1::before {
+    width: 110px;
+    left: 64%;
+}
+.milestone-slider {
+    margin-left: 5rem;
+}
+}
+@media only screen and (min-width: 1366px) and (max-width: 1443px) {
+.milstone-s{padding-left:120px;}
+.milestone-slider {
+    margin-left: 7.1rem;
+}
+section#our-leaders {
+    padding: 5rem 15rem 0rem 15rem;
+}
+}
+@media only screen and (min-width: 1440px) and (max-width: 1535px) {
+.milstone-s{padding-left:155px;}
+.milestone-slider {
+    margin-left: 5rem;
+}
+section#our-leaders {
+    padding: 5rem 15rem 0rem 15rem;
+}
+}
+@media only screen and (min-width: 1536px) and (max-width: 1599px) {
+.milstone-s{padding-left:200px;}
+.milestone-slider {
+    margin-left: 7.5rem;
+}
+section#our-leaders {
+    padding: 5rem 16rem 0rem 16rem;
+}
+}
+@media only screen and (min-width: 1600px) and (max-width: 1736px) {
+.milstone-s{padding-left:230px;}
+.milestone-slider {
+    margin-left: 9.5rem;
+}
+section#our-leaders {
+    padding: 5rem 19rem 0rem 19rem;
+}
+}
+@media only screen and (min-width: 1736px) and (max-width: 1919px) {
+.milstone-s{padding-left:315px;}
+.milestone-slider {
+    margin-left: 13.5rem;
+}
+section#our-leaders {
+    padding: 5rem 22rem 0rem 22rem;
+}
+}
+@media only screen and (min-width: 1920px) {
+.milstone-s{padding-left:400px;}
+.milestone-slider {
+    margin-left: 19.5rem;
+}
+section#our-leaders {
+   padding: 5rem 27rem 0rem 27rem
+}
+}
+
+@media only screen and (width: 1024px){
+   #hero {
+    width: 100%;
+    height: 28vh;
+}
+.milestone-slider {
+    margin-left: 3rem;
+}
+.counter-hed h2 {
+    margin-left: 0px;
+    padding-right: 0px;
+}
+section#our-leaders {
+    padding: 5rem 8rem 0rem 8rem;
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+#hero {
+    height: 32vh;
+}
+.about-banner h1 {
+    font-size: 45px;
+}
+section#our-teams .row>* {
+    width: 50%;
+   
+}
+section#our-leaders .row>* {
+    width: 50%;
+   
+}
+section#our-leaders {
+    padding: 5rem 0rem 0rem 0rem;
+}
+section#counter-stats .row>* {
+    width: 50%;
+    text-align: center;
+   
+}
+.num-count.d-flex {
+    justify-content: center;
+}
+.counting {
+    margin-bottom: 20px;
+}
+.counter-hed h2 {
+   padding-right: 0px;
+    width: 400px;
+    margin-left: -13rem;
+}
+.col-lg-4.mob-img {
+    display: none;
+}
+section#vision .row>* {
+    width: 50%;
+}
+.high-end-audio {
+    padding-bottom: 5rem;
+}
+.milestone-slider {
+    margin-left: 1rem;
+}
+section#milestone-achieved h2 {
+    margin-left: -2.5rem;
+}
+.milestone-slider .owl-nav {
+    right: 3%;
+    top: -25%;
+}
+.about-banner h1 {
+    width: 500px;
+}
+.about-banner p {
+    width: 500px;
+}
+.milestone-num::before {
+  display: none;
+}
+}
+@media only screen and (width: 768px){
+section#milestone-achieved h2 {
+    margin-left: -1rem;
+    font-size: 38px !important;
+}
+}
+@media only screen and (max-width: 767px) {
+   .about-banner h1 {
+    font-size: 40px;
+    width: auto;
+}
+.about-banner p {
+    width: auto;
+}
+h2.about-head {
+    font-size: 30px !important;
+}
+.high-end-audio {
+    padding-bottom: 4rem;
+}
+.img-box h3 {
+    font-size: 30px;
+    width: auto;
+}
+.mob-img img {
+    display: none;
+}
+.milestone-slider {
+    margin-left: 10px;
+   
+}
+.milestone-slider .owl-nav {
+    display: none;
+}
+.milestone-slider .item {
+    margin-right: 20px;
+}
+.milestone-slider.owl-theme .owl-dots .owl-dot span {
+    margin: 4px 3px;
+    background: #f0440f;
+ 
+}
+.counter-hed h2 {
+    text-align: center;
+    padding-bottom: 30px;
+    margin-left: 0px;
+    padding-right: 0px;
+}
+.stats {
+    text-align: center;
+}
+.num-count.d-flex {
+   margin-bottom: 30px;
+    justify-content: center;
+}
+.counting, .plus-icon {
+    font-size: 40px;
+}
+.counter-img {
+    margin: 0px 3rem;
+}
+section#our-leaders {
+    padding: 5rem 0rem 0rem 0rem;
+}
+.last-sec.hblack-cta.orblue-cta {
+    margin-left: 0px;
+}
+.bio-demo .modal-content {
+    padding: 10px;
+}
+#bio_demo .modal-content {
+    padding: 0px 0px;
+    background: #1F1F1F;
+    color: #fff;
+}
+}
+
+@media only screen and (min-width: 1024px){
+    section#counter-stats {
+    position: relative;
+}
+.cnt-vct:after {
+    content: '';
+    position: absolute;
+    background: url(https://web.pinklemonadedigital.com/cinebels/wp-content/uploads/2023/09/vector-graphics.svg);
+    width: 155px;
+    height: 30px;
+    background-repeat: no-repeat;
+   right: 64px;
+    top: 80px;
+}
+.high-end-audio {
+    position: relative;
+}
+.sol-vct:after {
+    content: '';
+    position: absolute;
+    background: url(https://web.pinklemonadedigital.com/cinebels/wp-content/uploads/2023/09/vector-graphics.svg);
+    width: 155px;
+    height: 30px;
+    background-repeat: no-repeat;
+  bottom: 72px;
+   
+}
+.last-sec {
+    position: relative;
+    left: 15px;
+}
+}
+
+
+

@@ -1,0 +1,7 @@
+.last-sec p {color: #212529;}
+
+
+@media only screen and (min-width: 768px){
+.solutions1 h1 {width: 650px;}
+.outdoor-spaces1.solutions1 h1 {width: 620px;}
+}

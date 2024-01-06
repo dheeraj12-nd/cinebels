@@ -1,0 +1,95 @@
+.blog .comments .comment time {
+    display: block;
+    font-size: 14px;
+    color: #FF6600;
+    margin-bottom: 5px;
+}
+.blog .post-author .social-links a {
+    color: #FF6600;
+    margin-right: 5px;
+}
+.blog .blog-details .meta-bottom a {
+    color: #FF6600;
+    transition: 0.3s;
+}
+.blog .blog-details .meta-top a {
+    color: #FF6600;
+    font-size: 14px;
+    display: inline-block;
+    line-height: 1;
+}
+.blog .sidebar .recent-posts h4 a:hover {
+    color: #FF6600;
+}
+.align-left-item {
+    text-align: left !IMPORTANT;
+}
+.align-left-item .post-category {
+    color: #FF6600 !important;
+}
+.align-left-item .post-date
+{
+	color: #FF6600 !important;
+	
+	line-height: 1.2;
+}
+.align-left-item .post-author-list
+{
+	line-height: 1.2;
+	font-size: 17px;
+}
+.blog .blog-details .post-img {
+    margin: -30px -30px 20px -30px;
+    overflow: hidden;
+    border-radius: 0;
+}
+.blog .posts-list .title {
+    font-size: 22px;
+    font-weight: 500;
+    padding: 0;
+    margin: 0 0 20px 0;
+    font-size: 20px;
+}
+.blog .blog-details .content blockquote {
+    overflow: hidden;
+    background-color: rgba(34, 34, 34, 0.06);
+    padding: 5px 45px;
+    position: relative;
+    text-align: center;
+    margin: 20px 0;
+}
+
+@media only screen and (max-width: 600px) {
+ .blog .blog-details .content blockquote {
+    overflow: hidden;
+    background-color: rgba(34, 34, 34, 0.06);
+    padding: 5px 0px;
+    position: relative;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 0px;
+}
+}
+
+
+
+@media only screen and (max-width: 900px) and (min-width: 700px)  {
+    
+   .blog .posts-list .title {
+    
+    font-weight: 400;
+    padding: 0;
+    margin: 0 0 20px 0;
+    font-size: 12px;
+} 
+.align-left-item .post-author-list {
+    line-height: 1.2;
+    font-size: 12px;
+}
+.blog .posts-list .post-category {
+    font-size: 11px;
+    color: #555555;
+    margin-bottom: 10px;
+}
+    
+}

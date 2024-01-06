@@ -1,0 +1,264 @@
+ul.tabs {margin: 0;padding: 0;float: left;list-style: none;width: 100%;}
+ul.tabs li {float: left;margin: 0;cursor: pointer;padding: 15px 20px;line-height: 31px;background-color: #fff;color: #000;overflow: hidden;position: relative;width:15%;height:60px;text-align:center;margin-right:30px;font-size:18px;}
+ul.tabs li:hover {background-color: #FF6600;color: #fff;}
+ul.tabs li.active {background-color: #FF6600;color: #fff;display: block;}
+.tab_container {border-top: none;clear: both;float: left;width: 100%;margin-top:55px;}
+.tab_content {padding: 20px;padding-left:0;padding-right:0;padding-top:0;}
+.tab_drawer_heading { display: none; }
+.contact-hed h2, .contact-hed1 h2{text-align: left;padding-bottom: 40px;font-size: 45px;font-weight: 400;line-height: 1.3;}.contact-hed1 h2{padding-bottom:0px;}
+.contact-hed1 p, .contact-hed1 h2{text-align:center !important;}
+.high-end-audio-contact {background: #000000;color:#fff;}
+.cinerema-add h3{color: #D9D9D9;font-size: 20px;font-weight: 600;}
+.cinerema-info h3 {color: #FF6600;font-size:30px;font-weight: 600;}
+.cinerema-email h3, .cinerema-phone h3{color: #D9D9D9;font-size: 20px;font-weight: 600;margin-bottom: 10px;}
+.contact-hed span {color: #FF6600;}
+.cinerema-phone {padding-top: 20px;}
+.hyd-sec a, .mumbai-address a, .contact-location a{color: #FF6600;}.hyd-sec a:hover, .mumbai-address a:hover, .contact-location a:hover{color: #D9D9D9;}
+.hyd-sec p{font-size:18px;font-weight:400;color:#D9D9D9;line-height:1.3;}
+.hyd-sec a, .mumbai-address a, .contact-location a{font-size:18px;font-weight:400;line-height:1.3;}
+.mumbai-address h3, .contact-location h3 {color: #FF6600;font-size:25px;font-weight: 600;}
+h3.contact-tittle{color: #D9D9D9 !important;font-size:20px;font-weight: 600;}
+.mumbai-address p, .contact-location p {color: #D9D9D9;font-size: 18px;line-height: 1.5;}
+p.contact-tittle, h3.contact-tittle {margin-bottom: 10px;}
+.contact-tittle1 {padding-top:15px;}
+.mumbai-map {padding-top: 35px;}
+.cinebals-contact-form .form-group {margin-bottom: 20px;}
+.cinebals-contact-form label {display: block;font-weight: bold;}
+.cinebals-contact-form input[type="text"],.cinebals-contact-form input[type="email"],.cinebals-contact-form input[type="tel"],.cinebals-contact-form textarea {width: 100%;padding: 10px;margin-top: 5px;margin-bottom: 10px;border: 1px solid #FF6600;
+      border-radius: 5px;background: transparent;color:#fff !important;}
+.cinebals-contact-form button[type="submit"] {background-color: #007bff;color: #fff;border: none;padding: 10px 20px;border-radius: 4px;cursor: pointer;}
+.cinebals-contact-form button[type="submit"]:hover { background-color: #0056b3; }
+.contacts-sec{background-color:#1F1F1F !important;}
+.contact-hed1 {padding-bottom: 40px;}
+.contact-hed1 span {color: #FF6600;}
+.orblue-cta-contact {
+    background: transparent !important;
+    position: relative !important;
+    -moz-user-select: none !important;
+    background-image: none !important;
+    cursor: pointer !important;
+    display: inline-block !important;
+    text-align: center !important;
+    vertical-align: middle !important;
+    white-space: nowrap !important;
+    border-color: #FF6600 !important;
+    border-style: solid !important;
+    border-width: 1px !important;
+    border-radius: 0 !important;
+    padding: 15px 28px 13px !important;
+    width: fit-content !important;
+}
+.orblue-cta-contact:before {
+    border: 1px solid #00AEEF;
+    content: "";
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+    left: 2px;
+    top: 4px;
+}
+input::placeholder {
+  color: #fff !important;
+     opacity: 1;
+	font-size:18px;
+	font-weight:400;
+}
+#name-error, #organization-error, #email-error, #phone-error {
+    color: red;
+    font-weight: 300;
+    padding-left: 10px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+
+@media screen and (max-width: 767px) {
+.tabs {display: none;}
+.tab_drawer_heading {
+    /*background-color: #ccc;*/
+    color: #fff;
+    border: 1px solid #FF6600;
+    margin: 0;
+    padding: 20px 0px 0px 15px;
+    display: block;
+    user-select: none;
+    font-size: 25px !important;
+    font-weight: 600 !important;
+    height: 70px;
+}
+
+.d_active.tab_drawer_heading::before {
+    content: "";
+    position: absolute;
+    background-image:url(../images/minus-icon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    right: 30px!important;
+    width: 30px!important;
+    left: auto!important;
+    height: 30px!important;
+    border: none!important;
+    margin: auto!important;
+    z-index: 99;
+    margin-top: 0px!important;
+}
+.tab_drawer_heading::before {
+    content: "";
+    position: absolute;
+    background-image:url(../images/plus-arrow.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    right: 30px!important;
+    width: 30px!important;
+    left: auto!important;
+    height: 30px!important;
+    border: none!important;
+    margin: auto!important;
+    z-index: 99;
+    margin-top: 0px!important;
+}
+.contact-location {
+    padding-top: 30px;
+}
+.d_active {background-color: #FF6600;color: #fff;}
+.cinerema-phone-1 {
+    padding-bottom: 30px;
+}
+.contact-hed1 h2 {
+    font-size: 30px;
+}
+}
+
+
+@media screen and (min-width: 768px) {
+  .cinerema-add {width: 435px;} 
+  .mumbai-address p {width: 390px;}
+  .contact-location p{width: 240px;}
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.contact-banner1.about-banner h1 {font-size: 35px;}
+.contact-banner1{height: 270px !important;}
+.contact-banner1{padding-top: 40px!important;}
+.contact-banner2{padding-top: 30px!important;padding-bottom:20px !important;}
+ul.tabs li {width: 20%;}
+.mumbai-address p, .contact-location p{width:auto;}
+.mumbai-address h3, .contact-location h3 {font-size: 18px;line-height:1.3;}
+.hyd-sec a, .mumbai-address a, .contact-location a {font-size: 16px;}
+.mumbai-map iframe { border: 0;width: 225px;}
+.mumbai-address p, .contact-location p {color: #D9D9D9;font-size: 16px;}
+.tab_container {margin-top: 25px;}
+.contact-location .num-h {height: 26px;display: block;}
+.mumbai-address h3, .contact-location h3 {font-size: 16px;}
+p.contact-details-txt {height: 103px;}
+}
+
+
+@media only screen and (width: 820px) {
+.contact-hed h2, .contact-hed1 h2 {font-size: 40px;}
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1100px) {
+ .contact-banner1.about-banner h1 {font-size: 45px;}
+.contact-banner1{height: 355px !important;} 
+.mumbai-address p, .contact-location p{width:auto;}
+.mumbai-address h3, .contact-location h3 {font-size: 18px;line-height:1.3;}
+.hyd-sec a, .mumbai-address a, .contact-location a {font-size: 16px;}
+.mumbai-map iframe { border: 0;width: 290px;}
+.contact-location .num-h {height: 26px;display: block;}
+p.contact-details-txt {height: 112px;}
+.contact-banner2{padding-top:30px;padding-bottom:30px;}
+.contact-hed1, .contact-hed1 h2 {text-align: center;}
+}
+
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+ .contact-banner1.about-banner h1 {font-size: 45px;}
+.contact-banner1{height: 355px !important;} 
+.mumbai-address p, .contact-location p{width:auto;}
+.mumbai-address h3, .contact-location h3 {font-size: 18px;line-height:1.3;}
+.hyd-sec a, .mumbai-address a, .contact-location a {font-size: 18px;}
+.mumbai-map iframe { border: 0;width: 330px;}
+.contact-location .num-h {height: 26px;display: block;}
+p.contact-details-txt {height: 112px;}
+.contact-banner2{padding-top:60px;padding-bottom:30px;}
+.contact-hed1, .contact-hed1 h2 {text-align: center;}
+}
+
+
+@media only screen and (max-width: 767px) {
+.contact-hed h2, .contact-hed1 h2 {font-size: 35px;}
+.contact-hed h2{padding-bottom:0px;}
+.tab_container {margin-top: 25px;}
+}
+
+@media only screen and (min-width: 992px) {
+.contact-banner1.about-banner h1 {width: 735px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .firodia-form .smt-btn input{background:transparent !important;} */
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: #fff !important;
+    opacity: 1;
+	font-size:18px;
+	font-weight:400;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #fff !important;
+    opacity: 1;
+	font-size:18px;
+	font-weight:400;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #fff !important;
+    opacity: 1;
+	font-size:18px;
+	font-weight:400;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #fff !important;
+    opacity: 1;
+	font-size:18px;
+	font-weight:400;
+}
+
+
+
+
+
+
+
+
